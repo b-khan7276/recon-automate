@@ -1,4 +1,4 @@
-#recon.py
+# recon.py
 A tool written in python to automate recon process
 
 ## Dependencies
