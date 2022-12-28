@@ -40,6 +40,6 @@ python3 recon_script.py
 # advance_recon.py
 Automate the process of performing a scan using tools like nmap, dnsenum, and masscan, you can create a Python script that utilizes the subprocess module to execute these tools and capture the output.
 ```bash
-python scan.py example.com
+python3 scan.py example.com
 ```
 This script will perform an nmap scan, a dnsenum scan, and a masscan scan on the target and save the output to separate .txt files. You can modify the script to perform additional scans or customize the arguments passed to the scanning tools as needed.
