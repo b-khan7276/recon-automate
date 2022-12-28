@@ -1,5 +1,5 @@
 # recon.py
-A tool written in python to automate recon process
+ Tools written in python to automate recon process
 
 ## Dependencies
 ```bash
