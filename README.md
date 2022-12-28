@@ -34,3 +34,6 @@ This script will perform a DNS lookup to get the IP address of the target domain
 ```bash
 python3 recon_script.py
 ```
+### Set your url here 
+![image](https://user-images.githubusercontent.com/58091942/209876529-c2f00498-2c89-4364-b3b5-d0eb9b07a8a2.png)
+
