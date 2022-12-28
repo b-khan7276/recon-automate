@@ -26,3 +26,11 @@ To execute this script, you can run it from the command line using the python co
 ```bash
 python recon.py
 ```
+
+# recon_script.py
+
+This script will perform a DNS lookup to get the IP address of the target domain, a reverse DNS lookup to get the hostname, a traceroute to get the hop count and IP addresses of intermediate routers, a port scan to get a list of open ports, and banner grabbing on the open ports. The results are saved to a JSON file called recon_results.json. You can modify the script to perform other recon tasks, such as HTTP header analysis or vulnerability scanning, as needed. To run the script, save it to a file and then execute it using Python 3:
+
+```bash
+python3 recon_script.py
+```
