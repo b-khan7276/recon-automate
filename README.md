@@ -43,3 +43,13 @@ Automate the process of performing a scan using tools like nmap, dnsenum, and ma
 python3 advance_recon.py example.com
 ```
 This script will perform an nmap scan, a dnsenum scan, and a masscan scan on the target and save the output to separate .txt files. You can modify the script to perform additional scans or customize the arguments passed to the scanning tools as needed.
+
+
+# Advance_recon.sh
+This script will prompt the user for the target domain or IP address, and then create a new folder with the target's name. It will then save the results of the reconnaissance to a file called $target.txt inside the new folder. The results will also be displayed on the terminal.
+
+To run this script, you will need to make it executable by running the following command:
+```bash
+chmod +x advance_recon.sh
+```
+
